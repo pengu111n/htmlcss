@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <style></style>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+      <label for="First name">First name</label>
+      <input required type="text" id="First name" /> <br />
+
+      <label for="Last name">Last name</label>
+      <input required type="text" id="Last name" /><br />
+
+      <label for="Email">Email</label>
+      <input required type="email" id="Email" /><br />
+
+      <label for="Username">Username</label>
+      <input required type="text" id="Username" /><br />
+
+      <label for="password">Password</label>
+      <input required minlength="10" type="password" id="password" /><br />
+
+      <label for="Birth">Birth date</label>
+      <input required type="date" id="Birth" /><br />
+
+      <label for="happy">How happy are you?</label>
+      <input required type="range" id="happy" list="tickmarks" />
+      <datalist id="tickmarks">
+        <option value="0" label="0%"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50" label="50%"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100" label="100%"></option>
+      </datalist>
+      <br />
+
+      <label for="color">what is your fav. color</label>
+      <input required type="color" id="color" /><br />
+
+      <button>Create Account</button>
+    </form>
+  </body>
+</html>

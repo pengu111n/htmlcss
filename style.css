@@ -1,0 +1,80 @@
+label {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+input {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+#title {
+  margin-left: 26px;
+}
+
+#content {
+  height: 150px;
+  padding-top: 0px;
+  display: inline-block;
+}
+
+::placeholder {
+  text-align: left;
+  padding-top: 0cm;
+}
+
+.uf {
+  margin-left: 5px;
+}
+
+#uploadFile {
+  margin-left: 3px;
+}
+
+#submit {
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+hr {
+  background: red;
+}
+
+table {
+  width: 50%;
+}
+
+table th {
+  background-color: coral;
+}
+
+table td {
+  background-color: bisque;
+}
+
+.goto {
+  margin: 0 0;
+  padding: 0 0;
+  width: 10px;
+}
+
+.goto input {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+textarea {
+  margin-top: 0px;
+  margin-left: 20px;
+  width: 170px;
+}
+
+p {
+  vertical-align: middle;
+}
+
+p label {
+  position: relative;
+  top: -63px;
+}
