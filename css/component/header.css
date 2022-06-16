@@ -1,0 +1,39 @@
+@import "reset.css";
+@import "main.css";
+@import "section.css";
+@import "footer.css";
+
+html {
+  width: 100%;
+}
+
+.header {
+  background-color: #ffce33;
+  height: 100px;
+  position: relative;
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 7px;
+}
+
+.header form {
+  position: absolute;
+  bottom: -15px;
+}
+
+.header__input {
+  width: 350px;
+  height: 30px;
+  margin: 0px 20px;
+  border-radius: 15px;
+  padding-left: 12px;
+  border: none;
+  box-shadow: 1pt 1pt;
+}
+
+.header__input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,40 @@
+.section {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.book-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.book-list-mom {
+  display: flex;
+  margin-top: 30px;
+}
+
+.book-list img {
+  width: 70px;
+  height: 100px;
+  border-radius: 5px;
+  margin-left: 35px;
+}
+
+.book-list:first-child img {
+  margin-left: 0px;
+}
+
+.book-list__star {
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+.book-list:first-child .book-list__star {
+  margin-left: 0px;
+}
+
+.book-list__star i {
+  color: #fccb33;
+}

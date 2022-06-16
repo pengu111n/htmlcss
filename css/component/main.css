@@ -1,0 +1,78 @@
+.main {
+  margin-top: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-weight: 600;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.main .title:not() {
+  display: flex;
+}
+
+.book__img {
+  width: 110px;
+  height: auto;
+  border-radius: 7px;
+}
+
+.main-book {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.book__content-mom {
+  display: flex;
+  flex-direction: column;
+}
+
+.book__content {
+  font-size: 14px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.book__title {
+  margin-top: 0px;
+}
+
+.writer {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.book__biograpy {
+  margin-top: 19px;
+}
+
+.book__biograpy a {
+  padding: 5px 14px;
+  background-color: #ebebeb;
+  font-weight: 500;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.book__biograpy a:last-child {
+  margin-left: 6px;
+}
+
+.book__pay {
+  margin-top: 30px;
+}
+
+.book__pay i {
+  background-color: #fccb33;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.book__pay a {
+  margin-left: 50px;
+  color: white;
+  background-color: black;
+  padding: 5px 20px;
+  border-radius: 4px;
+  font-weight: 400;
+}
