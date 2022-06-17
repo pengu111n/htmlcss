@@ -1,3 +1,56 @@
-.left-section {
-  margin-left: 300px;
+.img{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.img img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 20px #A3B2C5;
+  margin-top: 18px;
+}
+
+.introduction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.introduction .title{
+  padding-bottom: 10px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.introduction .Genre{
+  font-size: 14px;
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+.btn{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__suffle{
+  border:none;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin: 0px 20px
+}
+
+.btn__heart{
+  border:none;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 18px;
+  box-shadow: 0px 1px 10px rgb(226, 226, 226);
 }
